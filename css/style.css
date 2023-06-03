@@ -1,4 +1,89 @@
+/* importacion de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .gifImg{
     width: 30%;
     border-radius: 6px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(122, 45, 58);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+li a:hover {
+    background-color: rgb(146, 56, 71);
+    font-weight: bold;
+}
+
+/* seccion del cover */
+.container{
+    width:80%;
+    height: 760px;
+}
+
+.cover{
+    width: 125%;
+    height: 760px; /* Ajusta la altura según sea necesario */
+    background-image: url("../img/ositos.jpg");
+    background-position: center;
+    background-size: cover;
+    border-width: 60px;
+}
+
+/* configuracion para titulos */
+.titulo {
+    padding: 2% 5%;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    font-size: 500%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: rgb(146, 56, 71);
+}
+
+/* Seccion de Descripcion */
+.seccionDescripcion{
+    width: 95%;
+    display: inline-block;
+    padding: 2%;
+    border-radius: 6px;
+}
+
+.descripcion{
+    float: left;
+    padding: 5% 2% 0% 2%;
+    width: 45%;
+    height: 336px;
+    font-size: 250%;
+    text-align: center;
+    background-color: #F8DBD5;
+}
+
+.imgDescripcion{
+    width: 50%;
+    height: 400px;
 }
